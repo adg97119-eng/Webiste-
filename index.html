@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grow with Amaan | Performance Marketing & Digital Growth</title>
+  
+  <meta name="description" content="Performance marketing, conversion websites, and WhatsApp growth systems for ambitious Indian businesses by Amaan Jamadar." />
+  <meta name="keywords" content="performance marketing india, meta ads, google ads, conversion rate optimization, whatsapp marketing, grow with amaan, amaan jamadar" />
+  <meta name="author" content="Amaan Jamadar" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://growwithamaan.in" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Grow with Amaan" />
+  <meta property="og:title" content="Grow with Amaan | Performance Marketing & Digital Growth" />
+  <meta property="og:description" content="Turn digital marketing into measurable growth. Paid ads, fast conversion sites, and WhatsApp automation for Indian SMBs." />
+  <meta property="og:url" content="https://growwithamaan.in" />
+  <meta property="og:locale" content="en_IN" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%23111827'/><path d='M8 22L15 13L20 17L26 9' stroke='%23059669' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'/><path d='M21 9H26V14' stroke='%23059669' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'/></svg>" />
+
+  <!-- Modern Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <!-- Structured Data (JSON-LD) for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://growwithamaan.in/#website",
+        "url": "https://growwithamaan.in",
+        "name": "Grow with Amaan",
+        "description": "Performance marketing, conversion websites, and WhatsApp growth systems for ambitious Indian businesses.",
+        "inLanguage": "en-IN"
+      },
+      {
+        "@type": "ProfessionalService",
+        "@id": "https://growwithamaan.in/#business",
+        "name": "Grow with Amaan",
+        "founder": {
+          "@type": "Person",
+          "name": "Amaan Jamadar"
+        },
+        "telephone": "+918618641834",
+        "areaServed": "India",
+        "url": "https://growwithamaan.in"
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg: #FBFBFA;
+      --surface: #FFFFFF;
+      --surface-subtle: #F5F5F3;
+      --charcoal: #0F172A;
+      --heading: #111827;
+      --body: #52525B;
+      --muted: #71717A;
+      --border: rgba(15, 23, 42, 0.07);
+      --border-focus: rgba(15, 23, 42, 0.2);
+      --emerald: #059669;
+      --emerald-dark: #047857;
+      --emerald-subtle: #ECFDF5;
+      --radius: 14px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: var(--bg);
+      color: var(--body);
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    @media (min-width: 1024px) {
+      .container {
+        padding: 0 2rem;
+      }
+    }
+
+    /* Minimal buttons */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      padding: 0.75rem 1.4rem;
+      border-radius: 9999px;
+      font-size: 0.875rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+      cursor: pointer;
+      white-space: nowrap;
+    }
+
+    .btn-dark {
+      background-color: var(--charcoal);
+      color: #FFFFFF;
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+    .btn-dark:hover {
+      background-color: #1E293B;
+      transform: translateY(-1px);
+    }
+
+    .btn-emerald {
+      background-color: var(--emerald);
+      color: #FFFFFF;
+      border: 1px solid rgba(255,255,255,0.15);
+    }
+    .btn-emerald:hover {
+      background-color: var(--emerald-dark);
+      transform: translateY(-1px);
+      box-shadow: 0 8px 20px -4px rgba(5, 150, 105, 0.25);
+    }
+
+    .btn-light {
+      background-color: var(--surface);
+      color: var(--heading);
+      border: 1px solid var(--border);
+    }
+    .btn-light:hover {
+      background-color: var(--surface-subtle);
+      border-color: var(--border-focus);
+      transform: translateY(-1px);
+    }
+
+    /* Minimal Card */
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.75rem;
+      transition: all 0.2s ease;
+    }
+    .card:hover {
+      border-color: rgba(15, 23, 42, 0.16);
+      transform: translateY(-2px);
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.04);
+    }
+
+    /* Clean tag pill */
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.375rem;
+      padding: 0.25rem 0.75rem;
+      border-radius: 9999px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      background: var(--surface-subtle);
+      border: 1px solid var(--border);
+      color: var(--muted);
+    }
+
+    /* Section padding */
+    .section {
+      padding: 5rem 0;
+    }
+    @media (min-width: 768px) {
+      .section {
+        padding: 6.5rem 0;
+      }
+    }
+
+    /* FAQ accordion */
+    .faq-item {
+      border-bottom: 1px solid var(--border);
+    }
+    .faq-btn {
+      width: 100%;
+      text-align: left;
+      padding: 1.35rem 0;
+      background: none;
+      border: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--heading);
+      cursor: pointer;
+      font-family: inherit;
+    }
+    .faq-icon {
+      width: 22px;
+      height: 22px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background: var(--surface-subtle);
+      transition: transform 0.25s ease;
+      flex-shrink: 0;
+      font-size: 1.1rem;
+      color: var(--muted);
+    }
+    .faq-item.active .faq-icon {
+      transform: rotate(45deg);
+      background: var(--charcoal);
+      color: #FFF;
+    }
+    .faq-ans {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.25s ease;
+      color: var(--body);
+      font-size: 0.925rem;
+      line-height: 1.6;
+    }
+    .faq-item.active .faq-ans {
+      max-height: 200px;
+      padding-bottom: 1.25rem;
+    }
+
+    /* Strategy selector buttons */
+    .tab-btn {
+      padding: 0.5rem 1rem;
+      font-size: 0.8125rem;
+      font-weight: 600;
+      border-radius: 9999px;
+      border: 1px solid transparent;
+      background: transparent;
+      color: var(--muted);
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .tab-btn.active {
+      background: var(--surface);
+      color: var(--heading);
+      border-color: var(--border);
+      box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+    }
+
+    /* Subtle grid utility */
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.25rem;
+    }
+    @media (min-width: 768px) {
+      .grid-2 {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    .grid-3 {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.25rem;
+    }
+    @media (min-width: 640px) {
+      .grid-3 {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    @media (min-width: 1024px) {
+      .grid-3 {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    /* Smooth utility classes */
+    .font-mono {
+      font-family: 'JetBrains Mono', monospace;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ========================================== -->
+  <!-- NAVBAR                                     -->
+  <!-- ========================================== -->
+  <header style="position: sticky; top: 0; z-index: 50; background: rgba(251, 251, 250, 0.85); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border);">
+    <div class="container" style="display: flex; align-items: center; justify-content: space-between; height: 72px;">
+      
+      <!-- Minimal Logo -->
+      <a href="#" style="display: flex; align-items: center; gap: 0.6rem; text-decoration: none; color: var(--heading);">
+        <div style="width: 28px; height: 28px; background: var(--charcoal); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #10B981;">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+            <polyline points="17 6 23 6 23 12"></polyline>
+          </svg>
+        </div>
+        <span style="font-weight: 700; font-size: 0.95rem; letter-spacing: -0.01em;">Grow with Amaan</span>
+      </a>
+
+      <!-- Clean Nav (Desktop) -->
+      <nav style="display: flex; align-items: center; gap: 2rem; font-size: 0.875rem; font-weight: 500;" class="desktop-nav">
+        <a href="#services" style="color: var(--muted); text-decoration: none; transition: color 0.15s;" onmouseover="this.style.color='#111827'" onmouseout="this.style.color='var(--muted)'">Services</a>
+        <a href="#framework" style="color: var(--muted); text-decoration: none; transition: color 0.15s;" onmouseover="this.style.color='#111827'" onmouseout="this.style.color='var(--muted)'">Framework</a>
+        <a href="#strategies" style="color: var(--muted); text-decoration: none; transition: color 0.15s;" onmouseover="this.style.color='#111827'" onmouseout="this.style.color='var(--muted)'">Blueprint</a>
+        <a href="#about" style="color: var(--muted); text-decoration: none; transition: color 0.15s;" onmouseover="this.style.color='#111827'" onmouseout="this.style.color='var(--muted)'">About</a>
+        <a href="#faq" style="color: var(--muted); text-decoration: none; transition: color 0.15s;" onmouseover="this.style.color='#111827'" onmouseout="this.style.color='var(--muted)'">FAQ</a>
+      </nav>
+
+      <!-- CTAs -->
+      <div style="display: flex; align-items: center; gap: 0.75rem;">
+        <a href="tel:+918618641834" class="btn btn-light" style="padding: 0.55rem 1rem; font-size: 0.8125rem;">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--emerald);">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+          </svg>
+          <span class="font-mono">8618641834</span>
+        </a>
+        <a href="https://wa.me/918618641834?text=Hi%20Amaan%2C%20I%20found%20your%20website%20and%20would%20like%20to%20discuss%20growing%20my%20business%20online." target="_blank" rel="noopener noreferrer" class="btn btn-emerald" style="padding: 0.55rem 1.15rem; font-size: 0.8125rem;">
+          WhatsApp
+        </a>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ========================================== -->
+  <!-- HERO SECTION (MINIMAL & SOPHISTICATED)     -->
+  <!-- ========================================== -->
+  <section class="section" style="padding-top: 4.5rem; padding-bottom: 4rem; text-align: center;">
+    <div class="container" style="max-width: 840px;">
+      
+      <!-- Eyebrow Pill -->
+      <div style="margin-bottom: 1.5rem;">
+        <span class="tag">
+          <span style="width: 6px; height: 6px; border-radius: 50%; background: var(--emerald);"></span>
+          Performance Marketing &bull; India
+        </span>
+      </div>
+
+      <!-- Main Headline -->
+      <h1 style="font-size: clamp(2.4rem, 5vw, 3.8rem); font-weight: 800; color: var(--heading); letter-spacing: -0.03em; line-height: 1.1; margin-bottom: 1.25rem;">
+        Turn Digital Marketing Into Measurable Growth.
+      </h1>
+
+      <!-- Subtitle -->
+      <p style="font-size: clamp(1rem, 2vw, 1.2rem); color: var(--body); max-width: 620px; margin: 0 auto 2.25rem auto; line-height: 1.6;">
+        I help ambitious Indian businesses use targeted Meta & Google ads, fast conversion pages, and WhatsApp automation to generate real enquiries, bookings, and revenue.
+      </p>
+
+      <!-- Primary Action Buttons -->
+      <div style="display: flex; align-items: center; justify-content: center; gap: 0.75rem; flex-wrap: wrap; margin-bottom: 3.5rem;">
+        <a href="https://wa.me/918618641834?text=Hi%20Amaan%2C%20I%20found%20your%20website%20and%20would%20like%20to%20discuss%20growing%20my%20business%20online." target="_blank" rel="noopener noreferrer" class="btn btn-emerald" style="padding: 0.85rem 1.75rem; font-size: 0.95rem;">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+          </svg>
+          Start on WhatsApp
+        </a>
+
+        <a href="tel:+918618641834" class="btn btn-light" style="padding: 0.85rem 1.5rem; font-size: 0.95rem;">
+          Call Amaan Jamadar
+        </a>
+      </div>
+
+      <!-- Minimal Growth Blueprint Interface (Visual Component) -->
+      <div style="background: var(--surface); border: 1px solid var(--border); border-radius: 18px; padding: 1.5rem; text-align: left; box-shadow: 0 15px 35px -10px rgba(0,0,0,0.04);">
+        <div style="display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--border); padding-bottom: 0.85rem; margin-bottom: 1.25rem;">
+          <div style="display: flex; align-items: center; gap: 0.5rem; font-size: 0.8125rem; font-weight: 600; color: var(--heading);">
+            <span style="width: 8px; height: 8px; border-radius: 50%; background: var(--emerald);"></span>
+            Growth Architecture
+          </div>
+          <span class="font-mono" style="font-size: 0.725rem; color: var(--muted); text-transform: uppercase;">0-Friction Pipeline</span>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 0.75rem;">
+          
+          <div style="background: var(--surface-subtle); padding: 1rem; border-radius: 10px; border: 1px solid var(--border);">
+            <div style="font-size: 0.75rem; color: var(--muted); font-weight: 600; margin-bottom: 0.25rem;">STEP 01</div>
+            <div style="font-size: 0.9rem; font-weight: 700; color: var(--heading);">Targeted Ads</div>
+            <div style="font-size: 0.775rem; color: var(--muted); margin-top: 0.25rem;">Meta & Google Intent</div>
+          </div>
+
+          <div style="background: var(--surface-subtle); padding: 1rem; border-radius: 10px; border: 1px solid var(--border);">
+            <div style="font-size: 0.75rem; color: var(--muted); font-weight: 600; margin-bottom: 0.25rem;">STEP 02</div>
+            <div style="font-size: 0.9rem; font-weight: 700; color: var(--heading);">Clean Offer</div>
+            <div style="font-size: 0.775rem; color: var(--muted); margin-top: 0.25rem;">Fast, focused page</div>
+          </div>
+
+          <div style="background: var(--emerald-subtle); padding: 1rem; border-radius: 10px; border: 1px solid rgba(5,150,105,0.2);">
+            <div style="font-size: 0.75rem; color: var(--emerald-dark); font-weight: 600; margin-bottom: 0.25rem;">STEP 03</div>
+            <div style="font-size: 0.9rem; font-weight: 700; color: var(--emerald-dark);">WhatsApp Chat</div>
+            <div style="font-size: 0.775rem; color: var(--emerald-dark); margin-top: 0.25rem;">1-tap prefilled lead</div>
+          </div>
+
+          <div style="background: var(--surface-subtle); padding: 1rem; border-radius: 10px; border: 1px solid var(--border);">
+            <div style="font-size: 0.75rem; color: var(--muted); font-weight: 600; margin-bottom: 0.25rem;">STEP 04</div>
+            <div style="font-size: 0.9rem; font-weight: 700; color: var(--heading);">Fast Follow-Up</div>
+            <div style="font-size: 0.775rem; color: var(--muted); margin-top: 0.25rem;">Booking & enquiries</div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================== -->
+  <!-- TRUST STRIP                                -->
+  <!-- ========================================== -->
+  <div style="border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: var(--surface); padding: 1rem 0;">
+    <div class="container" style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; font-size: 0.8125rem; font-weight: 600; color: var(--muted);">
+      <span>&bull; Strategy First</span>
+      <span>&bull; Clean Unit Economics</span>
+      <span>&bull; Direct WhatsApp Follow-up</span>
+      <span>&bull; Clear Weekly Reporting</span>
+    </div>
+  </div>
+
+  <!-- ========================================== -->
+  <!-- SERVICES (CLEAN 6 CARDS)                   -->
+  <!-- ========================================== -->
+  <section id="services" class="section">
+    <div class="container">
+      
+      <div style="max-w: 600px; margin-bottom: 3rem;">
+        <span class="tag" style="margin-bottom: 0.75rem;">Services</span>
+        <h2 style="font-size: clamp(1.8rem, 3vw, 2.4rem); font-weight: 800; color: var(--heading); letter-spacing: -0.02em;">
+          Everything Engineered for Growth.
+        </h2>
+        <p style="color: var(--body); font-size: 1rem; margin-top: 0.5rem;">
+          No vanity marketing. Every channel connects prospects directly to your business.
+        </p>
+      </div>
+
+      <div class="grid-3">
+        
+        <!-- Service 1 -->
+        <div class="card">
+          <div class="font-mono" style="font-size: 0.75rem; font-weight: 700; color: var(--muted); margin-bottom: 1rem;">01</div>
+          <h3 style="font-size: 1.15rem; font-weight: 700; color: var(--heading); margin-bottom: 0.5rem;">Meta Ads</h3>
+          <p style="font-size: 0.875rem; color: var(--body); line-height: 1.55;">
+            Targeted Facebook & Instagram campaigns built around local customers, qualified leads, and bookings.
+          </p>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="card">
+          <div class="font-mono" style="font-size: 0.75rem; font-weight: 700; color: var(--muted); margin-bottom: 1rem;">02</div>
+          <h3 style="font-size: 1.15rem; font-weight: 700; color: var(--heading); margin-bottom: 0.5rem;">Google Ads</h3>
+          <p style="font-size: 0.875rem; color: var(--body); line-height: 1.55;">
+            High-intent search campaigns that capture buyers actively searching for your service in your city.
+          </p>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="card">
+          <div class="font-mono" style="font-size: 0.75rem; font-weight: 700; color: var(--muted); margin-bottom: 1rem;">03</div>
+          <h3 style="font-size: 1.15rem; font-weight: 700; color: var(--heading); margin-bottom: 0.5rem;">Conversion Websites</h3>
+          <p style="font-size: 0.875rem; color: var(--body); line-height: 1.55;">
+            Fast, single-goal landing pages built to convert mobile traffic into calls and WhatsApp chats.
+          </p>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="card">
+          <div class="font-mono" style="font-size: 0.75rem; font-weight: 700; color: var(--muted); margin-bottom: 1rem;">04</div>
+          <h3 style="font-size: 1.15rem; font-weight: 700; color: var(--heading); margin-bottom: 0.5rem;">Conversion Optimization</h3>
+          <p style="font-size: 0.875rem; color: var(--body); line-height: 1.55;">
+            Removing friction in the user journey to extract more leads from your existing ad spend.
+          </p>
+        </div>
+
+        <!-- Service 5 -->
+        <div class="card">
+          <div class="font-mono" style="font-size: 0.75rem; font-weight: 700; color: var(--muted); margin-bottom: 1rem;">05</div>
+          <h3 style="font-size: 1.15rem; font-weight: 700; color: var(--heading); margin-bottom: 0.5rem;">WhatsApp Marketing</h3>
+          <p style="font-size: 0.875rem; color: var(--body); line-height: 1.55;">
+            Direct-to-chat ads, pre-filled enquiries, catalog delivery, and instant booking workflows.
+          </p>
+        </div>
+
+        <!-- Service 6 -->
+        <div class="card">
+          <div class="font-mono" style="font-size: 0.75rem; font-weight: 700; color: var(--muted); margin-bottom: 1rem;">06</div>
+          <h3 style="font-size: 1.15rem; font-weight: 700; color: var(--heading); margin-bottom: 0.5rem;">Lead Automation</h3>
+          <p style="font-size: 0.875rem; color: var(--body); line-height: 1.55;">
+            Instant lead alerts to your phone so you follow up while prospect interest is at its absolute peak.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================== -->
+  <!-- THE CORE FRAMEWORK (ATTENTION TO GROWTH)   -->
+  <!-- ========================================== -->
+  <section id="framework" class="section" style="background: var(--surface); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);">
+    <div class="container">
+      
+      <div style="text-align: center; max-width: 650px; margin: 0 auto 3.5rem auto;">
+        <span class="tag" style="margin-bottom: 0.75rem;">The Framework</span>
+        <h2 style="font-size: clamp(1.8rem, 3vw, 2.4rem); font-weight: 800; color: var(--heading); letter-spacing: -0.02em;">
+          Running Ads Alone Is Not Enough.
+        </h2>
+        <p style="color: var(--body); font-size: 1rem; margin-top: 0.5rem;">
+          Profitable growth requires all 5 stages operating seamlessly together.
+        </p>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 0.75rem; max-width: 780px; margin: 0 auto;">
+        
+        <div style="display: flex; align-items: center; justify-content: space-between; padding: 1rem 1.25rem; background: var(--bg); border: 1px solid var(--border); border-radius: 12px;">
+          <div style="display: flex; align-items: center; gap: 1rem;">
+            <span class="font-mono" style="font-size: 0.8rem; font-weight: 700; color: var(--muted);">01</span>
+            <span style="font-weight: 700; color: var(--heading);">Traffic</span>
+          </div>
+          <span style="font-size: 0.85rem; color: var(--muted);">Targeted ads on Meta & Google</span>
+        </div>
+
+        <div style="display: flex; align-items: center; justify-content: space-between; padding: 1rem 1.25rem; background: var(--bg); border: 1px solid var(--border); border-radius: 12px;">
+          <div style="display: flex; align-items: center; gap: 1rem;">
+            <span class="font-mono" style="font-size: 0.8rem; font-weight: 700; color: var(--muted);">02</span>
+            <span style="font-weight: 700; color: var(--heading);">Attention</span>
+          </div>
+          <span style="font-size: 0.85rem; color: var(--muted);">Clear value hook, zero distractions</span>
+        </div>
+
+        <div style="display: flex; align-items: center; justify-content: space-between; padding: 1rem 1.25rem; background: var(--bg); border: 1px solid var(--border); border-radius: 12px;">
+          <div style="display: flex; align-items: center; gap: 1rem;">
+            <span class="font-mono" style="font-size: 0.8rem; font-weight: 700; color: var(--muted);">03</span>
+            <span style="font-weight: 700; color: var(--heading);">Conversion</span>
+          </div>
+          <span style="font-size: 0.85rem; color: var(--muted);">1-tap WhatsApp chat or direct call</span>
+        </div>
+
+        <div style="display: flex; align-items: center; justify-content: space-between; padding: 1rem 1.25rem; background: var(--bg); border: 1px solid var(--border); border-radius: 12px;">
+          <div style="display: flex; align-items: center; gap: 1rem;">
+            <span class="font-mono" style="font-size: 0.8rem; font-weight: 700; color: var(--muted);">04</span>
+            <span style="font-weight: 700; color: var(--heading);">Follow-up</span>
+          </div>
+          <span style="font-size: 0.85rem; color: var(--muted);">Instant response within 5 minutes</span>
+        </div>
+
+        <div style="display: flex; align-items: center; justify-content: space-between; padding: 1rem 1.25rem; background: var(--emerald-subtle); border: 1px solid rgba(5,150,105,0.25); border-radius: 12px;">
+          <div style="display: flex; align-items: center; gap: 1rem;">
+            <span class="font-mono" style="font-size: 0.8rem; font-weight: 700; color: var(--emerald-dark);">05</span>
+            <span style="font-weight: 700; color: var(--emerald-dark);">Growth</span>
+          </div>
+          <span style="font-size: 0.85rem; font-weight: 600; color: var(--emerald-dark);">Repeatable customer acquisition</span>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================== -->
+  <!-- DEMO STRATEGY BLUEPRINTS                   -->
+  <!-- ========================================== -->
+  <section id="strategies" class="section">
+    <div class="container">
+      
+      <div style="display: flex; flex-direction: column; align-items: flex-start; margin-bottom: 2.5rem;">
+        <span class="tag" style="margin-bottom: 0.75rem;">Strategic Thinking</span>
+        <h2 style="font-size: clamp(1.8rem, 3vw, 2.4rem); font-weight: 800; color: var(--heading); letter-spacing: -0.02em;">
+          How I Approach Different Industries.
+        </h2>
+        <p style="color: var(--muted); font-size: 0.85rem; margin-top: 0.4rem;">
+          Illustrative blueprints demonstrating campaign architecture &bull; Not client claims.
+        </p>
+
+        <!-- Industry selector tabs -->
+        <div style="display: flex; gap: 0.5rem; background: var(--surface-subtle); padding: 0.35rem; border-radius: 9999px; border: 1px solid var(--border); margin-top: 1.5rem; flex-wrap: wrap;">
+          <button class="tab-btn active" onclick="switchTab('restaurant', this)">Restaurants</button>
+          <button class="tab-btn" onclick="switchTab('realestate', this)">Real Estate</button>
+          <button class="tab-btn" onclick="switchTab('salon', this)">Salons & Clinics</button>
+          <button class="tab-btn" onclick="switchTab('coaches', this)">Coaches / Edu</button>
+        </div>
+      </div>
+
+      <!-- Strategy Display Box -->
+      <div id="strategyBox" class="card" style="padding: 2rem;">
+        <!-- Dynamic content filled via JS -->
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================== -->
+  <!-- ABOUT AMAAN                                -->
+  <!-- ========================================== -->
+  <section id="about" class="section" style="background: var(--surface); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);">
+    <div class="container" style="max-width: 820px;">
+      
+      <div style="display: grid; grid-template-columns: 1fr; gap: 2.5rem; align-items: center;">
+        <div>
+          <span class="tag" style="margin-bottom: 0.75rem;">About</span>
+          <h2 style="font-size: clamp(1.8rem, 3vw, 2.2rem); font-weight: 800; color: var(--heading); margin-bottom: 1.25rem;">
+            Amaan Jamadar
+          </h2>
+          <p style="font-size: 1rem; color: var(--body); line-height: 1.65; margin-bottom: 1.25rem;">
+            I am a performance marketer building direct, measurable customer acquisition channels for Indian businesses. 
+          </p>
+          <p style="font-size: 0.95rem; color: var(--body); line-height: 1.65; margin-bottom: 1.75rem;">
+            Instead of empty impressions or inflated promises, I focus on unit economics: how much does it cost you to get an enquiry, and how quickly do we turn that into revenue?
+          </p>
+
+          <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+            <a href="https://wa.me/918618641834?text=Hi%20Amaan%2C%20I%20would%20like%20to%20discuss%20growing%20my%20business." target="_blank" rel="noopener noreferrer" class="btn btn-dark" style="font-size: 0.85rem;">
+              Connect on WhatsApp
+            </a>
+            <a href="tel:+918618641834" class="btn btn-light" style="font-size: 0.85rem;">
+              Call Direct: 8618641834
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================== -->
+  <!-- FAQ                                        -->
+  <!-- ========================================== -->
+  <section id="faq" class="section">
+    <div class="container" style="max-width: 740px;">
+      
+      <div style="margin-bottom: 2.5rem; text-align: center;">
+        <span class="tag" style="margin-bottom: 0.75rem;">FAQ</span>
+        <h2 style="font-size: clamp(1.8rem, 3vw, 2.2rem); font-weight: 800; color: var(--heading);">
+          Common Questions.
+        </h2>
+      </div>
+
+      <div style="border-top: 1px solid var(--border);">
+        
+        <div class="faq-item">
+          <button class="faq-btn" onclick="toggleFaq(this)">
+            <span>Do you work with small Indian businesses?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-ans">
+            Yes. Small and growing businesses are the primary focus. Every marketing system is built efficiently so budgets are directed toward high-intent prospects without waste.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-btn" onclick="toggleFaq(this)">
+            <span>Do I need a website before running ads?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-ans">
+            Not necessarily. For many local businesses in India, direct-to-WhatsApp ad funnels or streamlined single-screen landing pages outperform heavy websites. If needed, I build fast conversion pages as part of the service.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-btn" onclick="toggleFaq(this)">
+            <span>Do you guarantee results?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-ans">
+            No legitimate marketer can guarantee an exact number of leads or sales. The commitment is disciplined execution: thorough audience research, high-quality creatives, conversion-optimized pages, and continuous daily testing.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-btn" onclick="toggleFaq(this)">
+            <span>How do we get started?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-ans">
+            Send a message on WhatsApp at 8618641834 or call directly. We'll examine your current business, your customer acquisition flow, and define a clear growth roadmap.
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================== -->
+  <!-- FINAL CTA                                  -->
+  <!-- ========================================== -->
+  <section class="section" style="background: var(--charcoal); color: #FFFFFF; text-align: center;">
+    <div class="container" style="max-width: 680px;">
+      
+      <span class="tag" style="background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.15); color: #10B981; margin-bottom: 1.25rem;">
+        Ready to Grow?
+      </span>
+
+      <h2 style="font-size: clamp(2rem, 4vw, 3rem); font-weight: 800; color: #FFFFFF; letter-spacing: -0.02em; margin-bottom: 1rem;">
+        Your Next Growth Move Starts With a Conversation.
+      </h2>
+
+      <p style="font-size: 1.05rem; color: #94A3B8; margin-bottom: 2.5rem; line-height: 1.6;">
+        Tell me about your business, what you're trying to achieve, and where you're stuck. We'll start there.
+      </p>
+
+      <div style="display: flex; justify-content: center; gap: 0.85rem; flex-wrap: wrap;">
+        <a href="https://wa.me/918618641834?text=Hi%20Amaan%2C%20I%20found%20your%20website%20and%20would%20like%20to%20discuss%20growing%20my%20business%20online." target="_blank" rel="noopener noreferrer" class="btn btn-emerald" style="padding: 0.9rem 2rem; font-size: 1rem;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+          </svg>
+          WhatsApp Amaan
+        </a>
+        <a href="tel:+918618641834" class="btn" style="background: rgba(255,255,255,0.08); color: #FFFFFF; border: 1px solid rgba(255,255,255,0.15); padding: 0.9rem 1.75rem; font-size: 1rem;">
+          Call 8618641834
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================== -->
+  <!-- FOOTER                                     -->
+  <!-- ========================================== -->
+  <footer style="background: #0B1120; border-top: 1px solid rgba(255,255,255,0.08); padding: 3rem 0; color: #64748B; font-size: 0.8125rem;">
+    <div class="container" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1.5rem;">
+      
+      <div>
+        <div style="font-weight: 700; color: #FFFFFF; font-size: 0.95rem; margin-bottom: 0.25rem;">Grow with Amaan</div>
+        <div>Amaan Jamadar &bull; Performance Marketing</div>
+      </div>
+
+      <div style="display: flex; gap: 1.5rem;">
+        <a href="#services" style="color: #94A3B8; text-decoration: none;">Services</a>
+        <a href="#framework" style="color: #94A3B8; text-decoration: none;">Framework</a>
+        <a href="#about" style="color: #94A3B8; text-decoration: none;">About</a>
+        <a href="tel:+918618641834" style="color: #94A3B8; text-decoration: none;">+91 8618641834</a>
+      </div>
+
+      <div>
+        &copy; 2026 Grow with Amaan. All rights reserved.
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Interactive Strategy Script -->
+  <script>
+    const strategies = {
+      restaurant: {
+        title: "Restaurant & Cloud Kitchen Growth Flow",
+        description: "Driving weekend table bookings, banquets, and direct takeaway orders.",
+        steps: [
+          { name: "Traffic", detail: "Hyperlocal Meta video ads showcasing signature dishes within 5-7km" },
+          { name: "Offer", detail: "Complimentary dessert with table booking or weekend dining reservation" },
+          { name: "Channel", detail: "Direct WhatsApp chat with pre-filled party size & preferred date" },
+          { name: "Outcome", detail: "Automated table confirmation + reminder 2 hours prior" }
+        ]
+      },
+      realestate: {
+        title: "Real Estate Lead Engine",
+        description: "Capturing qualified homebuyers for new launches & commercial units.",
+        steps: [
+          { name: "Traffic", detail: "Location-targeted Meta & Google Search ads for active property seekers" },
+          { name: "Offer", detail: "Single-screen floor plan download & project pricing breakdown" },
+          { name: "Channel", detail: "Instant WhatsApp brochure delivery with automated budget filter" },
+          { name: "Outcome", detail: "Sales team connects with pre-qualified buyers within 5 minutes" }
+        ]
+      },
+      salon: {
+        title: "Salon & Aesthetic Clinic Booking",
+        description: "Filling weekday appointment slots and promoting high-value packages.",
+        steps: [
+          { name: "Traffic", detail: "Reel ads targeting local women/men within 6km radius" },
+          { name: "Offer", detail: "Introductory package: Hair spa + styling or skin rejuvenation" },
+          { name: "Channel", detail: "1-tap WhatsApp slot picker with instant consultation booking" },
+          { name: "Outcome", detail: "Automated calendar sync & automated 30-day rebooking nudge" }
+        ]
+      },
+      coaches: {
+        title: "Coaches & Education Enrollments",
+        description: "Generating student enquiries and workshop registrations.",
+        steps: [
+          { name: "Traffic", detail: "Problem-focused video ads addressing student/professional goals" },
+          { name: "Offer", detail: "Free syllabus overview or introductory live session pass" },
+          { name: "Channel", detail: "WhatsApp community onboarding or direct consultation call" },
+          { name: "Outcome", detail: "High-touch enquiry qualification and enrollment closing" }
+        ]
+      }
+    };
+
+    function renderStrategy(key) {
+      const data = strategies[key];
+      const box = document.getElementById('strategyBox');
+      box.innerHTML = `
+        <div style="margin-bottom: 1.5rem;">
+          <h3 style="font-size: 1.25rem; font-weight: 700; color: var(--heading); margin-bottom: 0.25rem;">${data.title}</h3>
+          <p style="font-size: 0.875rem; color: var(--muted);">${data.description}</p>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem;">
+          ${data.steps.map((s, i) => `
+            <div style="background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 1rem;">
+              <span class="font-mono" style="font-size: 0.725rem; font-weight: 700; color: var(--emerald); display: block; margin-bottom: 0.25rem;">STEP 0${i + 1}</span>
+              <div style="font-size: 0.95rem; font-weight: 700; color: var(--heading); margin-bottom: 0.35rem;">${s.name}</div>
+              <div style="font-size: 0.8rem; color: var(--body); line-height: 1.45;">${s.detail}</div>
+            </div>
+          `).join('')}
+        </div>
+      `;
+    }
+
+    function switchTab(key, btn) {
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      renderStrategy(key);
+    }
+
+    function toggleFaq(btn) {
+      const item = btn.parentElement;
+      const isOpen = item.classList.contains('active');
+      document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+      if (!isOpen) {
+        item.classList.add('active');
+      }
+    }
+
+    // Initialize
+    renderStrategy('restaurant');
+  </script>
+</body>
+</html>
